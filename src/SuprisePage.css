@@ -1,0 +1,51 @@
+
+.suprise-page {
+  display: flex;
+  background-color: #3e97d3;
+  height: 100vh; /* Убедитесь, что контейнер имеет высоту */
+  flex-direction: column;
+  justify-content: center; /* Центрируем элементы по вертикали */
+  align-items: center; /* Центрируем элементы по горизонтали */
+}
+
+.button_suprise {
+  display: flex;
+  text-align: center;
+  font-family: Courier New, sans-serif;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #a82a66;
+  border-radius: 10px;
+  color: #7a1818; /* Added for better visibility */
+  border: none; /* Optional: remove border */
+  cursor: pointer; /* Optional: change cursor on hover */
+  font-size: 23px; /* Optional: adjust font size */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button_suprise:hover {
+    background-color: rgba(76, 14, 14, 0.87); /* Optional: darker shade on hover */
+    transform: scale(1.05); /* Add a subtle scale effect on hover */
+    color: white;
+}
+
+.surprise-image {
+  width: 1080px;
+  height: 600px;
+  margin-bottom: 20px; /* Добавим отступ под изображением */
+  object-fit: cover; /* Чтобы изображение корректно масштабировалось */
+}
+
+.suprise-text {
+  color: #df3232;
+  font-size: 50px;
+  font-family: Courier, monospace;
+  text-align: center; /* Центрируем текст */
+  margin: 0; /* Убираем отступы по умолчанию */
+  position: absolute;
+  top: 120px;
+  left: 350px;
+}

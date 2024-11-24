@@ -1,0 +1,37 @@
+.real {
+    position: relative; /* Для того, чтобы другие элементы располагались поверх изображения */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Чтобы избежать переполнения */
+    width: 100%;
+}
+
+
+.real::before {
+    content: ''; /* Псевдо-элемент */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.59); /* Полупрозрачный темный слой */
+    z-index: 1; /* Устанавливаем выше изображения */
+}
+
+.real_context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2; /* Чтобы текст был поверх темного фона */
+}
+
+.real_text {
+    color: #ffffff; /* Белый цвет текста */
+    font-size: 90px; /* Размер шрифта */
+    font-family: Courier, monospace; /* Шрифт текста */
+    text-align: center; /* Центрируем текст */
+    margin: 20px; /* Отступы */
+}
+

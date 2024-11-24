@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Минимальная высота 100% */
+  flex: 1; /* Основной контент занимает всё доступное пространство */
+  background-color: #a1bdc9;
+}
+
+.cats {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 150px;
+}
+
+.text {
+  position: absolute;
+  top: 340px;
+  color: #000000;
+  font-family: Courier, monospace;
+}
+
+/* Button.css */
+.button {
+  text-align: center;
+  font-family: Courier New, sans-serif;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  background-color: #627e59;
+  border-radius: 10px;
+  top: 460px;
+  color: white; /* Added for better visibility */
+  border: none; /* Optional: remove border */
+  cursor: pointer; /* Optional: change cursor on hover */
+  font-size: 23px; /* Optional: adjust font size */
+}
+
+.button:hover {
+  background-color: #4a5d42; /* Optional: darker shade on hover */
+  transform: scale(1.05); /* Add a subtle scale effect on hover */
+}
