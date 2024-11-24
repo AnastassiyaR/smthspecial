@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './RunningPage.css';
-import Square_running from "./components/Square_running.jsx";
+import Square_running from "./components/square_running.jsx";
 import SurprisePage from "./SuprisePage.jsx"; // Импортируем SurprisePage
 
 function RunningPage() {
