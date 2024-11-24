@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './RunningPage.css';
-import Square_running from "./components/Square_running.jsx";
 import RealPage from "./RealPage.jsx"; // Импортируем SurprisePage
 
 function SupportPage() {
