@@ -24,7 +24,7 @@ function RunningPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowButton(true); // Показываем кнопку через 3 секунды
-    }, 1000); // 3000 миллисекунд = 3 секунды
+    }, 7500); // 3000 миллисекунд = 3 секунды
 
     // Очищаем таймер при размонтировании компонента
     return () => clearTimeout(timer);
@@ -45,8 +45,8 @@ function RunningPage() {
         transition={{ duration: 0.5 }} // Длительность анимации
         className="running-content"
       >
-        <h1>You hear someone is running to you</h1>
-        <p>Who is that?</p>
+        <h1 className="textrun">You hear someone is running to you</h1>
+
         <Square_running />
 
         {/* Показываем кнопку только если showButton равно true */}

@@ -1,7 +1,7 @@
 
 .support-page {
   display: flex;
-  background-color: #3e97d3;
+  background-image: url("./assets/sky.jpg");
   height: 100vh; /* Убедитесь, что контейнер имеет высоту */
   flex-direction: column;
   justify-content: center; /* Центрируем элементы по вертикали */
@@ -16,9 +16,9 @@
   height: 50px;
   align-items: center;
   justify-content: center;
-  background-color: #a82a66;
   border-radius: 10px;
-  color: #7a1818; /* Added for better visibility */
+  background-color: #8aacd3;
+  color: #1b187a; /* Added for better visibility */
   border: none; /* Optional: remove border */
   cursor: pointer; /* Optional: change cursor on hover */
   font-size: 23px; /* Optional: adjust font size */
@@ -27,7 +27,7 @@
 }
 
 .button_support:hover {
-    background-color: rgba(76, 14, 14, 0.87); /* Optional: darker shade on hover */
+    background-color: rgba(133, 189, 183, 0.87); /* Optional: darker shade on hover */
     transform: scale(1.05); /* Add a subtle scale effect on hover */
     color: white;
 }

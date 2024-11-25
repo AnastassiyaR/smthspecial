@@ -1,9 +1,8 @@
 .square {
   width: 100px;
   height: 100px;
-  background-color: #761dc6;
   position: relative;
-  top: 150px;
+  top: 250px;
   background-image: url("https://i.giphy.com/c76IJLufpNwSULPk77.webp");
   background-size: cover;
 }

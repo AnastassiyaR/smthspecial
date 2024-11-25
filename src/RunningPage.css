@@ -1,10 +1,19 @@
 
+.textrun {
+  position: absolute;
+
+  color: #77293c;
+  font-size: 40px;
+  font-family: Courier New, sans-serif;
+  font-weight: bold;
+}
 .running-content {
   display: flex;
   flex-direction: column;
   justify-conctent: center;
   align-items: center;
   text-align: center;
+  background-color: #f1a8a8;
 }
 
 .button_running {
@@ -13,17 +22,18 @@
   width: 150px;
   height: 50px;
   position: absolute;
-  background-color: #d69bb7;
   border-radius: 10px;
   top: 560px;
-  color: #7c3e5d; /* Added for better visibility */
+  background-color: #8aacd3;
+  color: #1b187a; /* Added for better visibility */
   border: none; /* Optional: remove border */
   cursor: pointer; /* Optional: change cursor on hover */
   font-size: 23px; /* Optional: adjust font size */
+  transition: transform 0.3s; /* Плавный переход для эффектов наведения */
 }
 
 .button_running:hover {
-  background-color: rgba(76, 14, 14, 0.87); /* Optional: darker shade on hover */
+  background-color: rgba(186, 42, 42, 0.87); /* Optional: darker shade on hover */
   transform: scale(1.05); /* Add a subtle scale effect on hover */
   color: white;
 }
