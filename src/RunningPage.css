@@ -1,19 +1,23 @@
 
+.running-page {
+  background-color: #959595;
+  height: 100vh;
+}
 .textrun {
   position: absolute;
-
-  color: #77293c;
+  color: #7e1616;
   font-size: 40px;
   font-family: Courier New, sans-serif;
   font-weight: bold;
 }
+
 .running-content {
   display: flex;
   flex-direction: column;
   justify-conctent: center;
   align-items: center;
   text-align: center;
-  background-color: #f1a8a8;
+  background-color: #ccb5b5;
 }
 
 .button_running {
@@ -24,8 +28,8 @@
   position: absolute;
   border-radius: 10px;
   top: 560px;
-  background-color: #8aacd3;
-  color: #1b187a; /* Added for better visibility */
+  background-color: #a3b689;
+  color: #284319; /* Added for better visibility */
   border: none; /* Optional: remove border */
   cursor: pointer; /* Optional: change cursor on hover */
   font-size: 23px; /* Optional: adjust font size */
